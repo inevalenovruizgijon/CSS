@@ -1,0 +1,60 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    border: 2px dashed black;
+    margin: 50px;
+    height: 675px;
+    width: 750px;
+    /* position: relative; */
+}
+
+.box{
+    border: 2px solid black;
+    font-size: 2rem;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+.one{
+    background-color: aqua;
+    position: static;
+    /*segun el flujo html (valor por defecto)*/
+    /*ignora top,botton,left,right*/
+}
+.second{
+    background-color: bisque;
+    position: relative;
+    /*el desplazamiento se realiza desde la posición que ocupa el elemento según el flujo de html*/
+    /*activa top,botton,right,left,z-index*/
+    left: 150px;
+    
+}
+.third{
+    background-color: blueviolet;
+    position: absolute;
+    /*el flujo se hace desde el borde de la ventana del  navegador 
+    o desde el primer ascendiente que tenga position relative*/
+    left: 150px;
+}
+.fourth{
+    background-color: cadetblue;
+    position: fixed;
+    /* fija el elemento en pantalla e ignora el posible scroll
+    el desplazamiento se realiza desde el borde del navegador siempre */
+    top: 0;
+    left: 0;
+}
+.fifth{
+    background-color: pink;
+    position: sticky;
+    top: 0px;
+    
+}

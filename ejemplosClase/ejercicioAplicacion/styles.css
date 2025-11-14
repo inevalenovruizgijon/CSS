@@ -1,0 +1,39 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+header{
+    background-color: orange;
+    width: 96%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;   
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    height: 600px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+    padding-top: 5px;
+}
+
+main{
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+article{
+    display: inline-block;
+    padding-top: 10px;
+    background-color: greenyellow;
+    width: 380px;
+    height: 500px;
+}
+article:first-child{
+    margin-right: 3px;
+}

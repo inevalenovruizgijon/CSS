@@ -1,0 +1,100 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+    height: 100%;
+}
+
+.container{
+    min-height: 100vh;
+    background-image: url(img/pexels-valeriya-1639562.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.container-hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 400px;
+    align-content: center;
+    text-align: center;
+}
+
+.descuento{
+    background-color: orange;
+    width: 1200px;
+    height: 400px;
+    align-self: flex-start;
+}
+
+.descuento h3{
+    font-size: 7rem;
+}
+.descuento p{
+    font-size: 4rem;
+}
+.apertura{
+    width: 1200px;
+    height: 400px;
+    align-self: center;
+}
+.apertura h3{
+    color: orange;
+    font-size: 8rem;
+}
+.apertura :nth-child(2){
+    color: white;
+    font-size: 3rem;
+}
+.apertura :nth-child(3){
+    color: white;
+    font-size: 4rem;
+}
+.hastag{
+    width: 800px;
+    height: 400px;
+    background-color: orange;
+    align-self: flex-end;
+}
+ .hastag p{
+    font-size: 4rem;
+    padding-bottom: 500px;
+} 
+@media (max-width: 700px) {
+  .container-hero {
+    flex-direction: column;
+    gap: 40px; 
+  }
+
+  .descuento, .apertura, .hastag {
+    width: 90vw;   
+    height: auto;  
+  }
+
+  .descuento h3 {
+    font-size: 3rem;  
+  }
+
+  .descuento p {
+    font-size: 1.5rem;
+  }
+
+  .apertura h3 {
+    font-size: 3rem;
+  }
+
+  .apertura :nth-child(2),.apertura :nth-child(3) {
+    font-size: 1.5rem;
+  }
+
+  .hastag p {
+    font-size: 1.5rem;
+    padding-bottom: 20px; 
+  }
+}
+

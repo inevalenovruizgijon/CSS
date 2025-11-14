@@ -1,0 +1,22 @@
+.title {
+    text-shadow: 2px 2px 2px;
+}
+.title-text{
+    background-clip: linear-gradient(to right, green 60%,yellow 80%
+    );
+}
+.shady {
+    margin: 2em 0;
+    padding: 1em;
+    box-shadow: 0 8px 0 4px limegreen; 
+}
+.shady2 {
+    margin: 2em 0;
+    padding: 1em;
+    box-shadow: 0 8px 0 4px orange;   
+}
+.shady3 {
+    margin: 2em 0;
+    padding: 1em;
+    box-shadow: 2px 0 0 0 #2196f3;  
+}

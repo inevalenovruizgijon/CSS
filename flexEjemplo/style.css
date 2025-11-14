@@ -1,0 +1,31 @@
+
+.container{
+    width: 90%;
+    border:dashed black;
+    height: 600px;
+}
+.item{
+    min-width: 200px;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.item1{
+    background-color: lightpink;
+    border: solid black;
+    flex-basis: 150px;
+}
+.item2{
+    background-color: lightblue;
+    border: solid black;
+}
+.item3{
+    background-color: lightcoral;
+    border: solid black;
+}
+.item4{
+    background-color: lightgoldenrodyellow;
+    border: solid black;
+}

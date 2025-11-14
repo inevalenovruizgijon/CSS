@@ -1,0 +1,14 @@
+.divespecial{
+    display: block;
+    background-color: grey;
+    width: 200px;
+    border: solid red;
+}
+span{
+    width: 180px;
+    display: inline-block;
+}
+.pespecial{
+    border: dashed black;
+
+}

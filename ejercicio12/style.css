@@ -1,0 +1,42 @@
+header{
+    display: block;
+    background-color: lightgreen;
+    padding: 20px;
+    
+}
+main ul:nth-of-type(2){
+    list-style: none;
+    display: inline;
+    padding: 0%;
+}
+
+main ul:nth-of-type(3){
+    list-style: none;
+    display: inline;
+    padding: 0%;    
+    
+}
+main ul:nth-of-type(3) li{
+    border: solid black;
+    width: 100px;
+    background-color: grey;    
+}
+
+main ul:nth-of-type(4) li{
+ display: inline;
+ padding: 0%;
+ border: solid black;
+ background-color: darkgray;
+}
+
+ul:last-child a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    background-color: green;
+}
+

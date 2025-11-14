@@ -1,0 +1,43 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+article{
+    height: 300px;
+    float: left;
+}
+.red{
+    background-color: red;
+    width: 20%;    
+}
+.blue{
+    background-color: blue;
+    width: 50%;
+}
+.yellow{
+    background-color: yellow;
+    width: 30%;
+}
+
+
+@media screen and (min-height: 500px) {
+    .red,.blue{
+        float: left;
+        width: 50%;
+    }
+    .yellow{
+        float: right;
+        width: 100%;
+    }
+}
+
+@media screen and (min-height: 600px) and (min-width:500px) {
+    .red,.blue,.yellow{
+        width: 100%;
+    }
+}
