@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 68, 255, 0.2),
+      rgba(255, 85, 224, 0.8)
+    ),
+    url(fondo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.contact__form {
+  max-width: 800px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  width: 100%;
+}
+
+.contact__legend {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.contact__input,
+.contact__textarea {
+  width: 85%;
+  height: 30px;
+}
+
+.contact__textarea {
+  height: 60px;
+}
+
+.contact__field {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact__btn {
+  background-image: linear-gradient(
+    to left,
+    rgb(113, 113, 255),
+    rgb(149, 0, 149)
+  );
+  width: 100%;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact__name-phone-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+  .contact__field--50 {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+
+  .contact__field--50 > .contact__input {
+    width: 70%;
+  }
+
+  .contact__field--50 {
+    gap: 50px;
+  }
+
+.contact__send{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.contact__btn{
+    font-size: 15px;
+    width: unset;
+}
+
+}

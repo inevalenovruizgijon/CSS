@@ -1,0 +1,154 @@
+/* Fonts */
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins/Poppins-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Root */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+/* Header */
+.header {
+  background-color: rgb(18, 18, 87);
+  color: white;
+}
+
+.header__tittle {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.hero__container{
+    display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+/* Nav */
+.nav {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+.nav__link:hover {
+  background-color: white;
+  color: rgb(18, 18, 87);
+}
+
+/* Main */
+.main {
+  background-image: url(img/undraw_programming_j1zw.svg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+}
+
+.main__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 50px;
+  width: 50%;
+}
+
+.main__button {
+  background-color: rgb(234, 162, 28);
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100px;
+}
+
+.main__tittle {
+  font-size: 4em;
+}
+
+.main__subtittle {
+  font-size: 1.5em;
+  color: lightslategray;
+}
+
+/* Media Query */
+@media screen and (max-width: 780px) {
+  .main {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    margin: 50px;
+  }
+
+.header {
+  background-color: rgb(18, 18, 87);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1em;
+}
+
+.header {
+  flex-direction: column;
+}
+
+.header__tittle {
+  margin-top: 20px;
+}
+
+.main__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0;
+    width: 100%;
+}
+
+}

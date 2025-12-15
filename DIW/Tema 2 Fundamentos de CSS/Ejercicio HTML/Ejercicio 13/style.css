@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+}
+
+body{
+    background-color: white;
+    background-image: url(fondo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.manifesto{
+    background-color: rgb(20, 20, 20, 0.7);
+    margin: 50px;
+    height: auto;
+    padding: 50px;
+    line-height: 1.5;
+}
+
+.title{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+}
+
+p{
+    font-style: italic;
+}
+
+.title,p{
+    color: white;
+}

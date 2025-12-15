@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.hero {
+  background-image: url(burguer.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__address {
+  font-size: 1.5em;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex: 1 0 200px;
+}
+
+.hero__discount {
+  background-color: rgb(255, 214, 49);
+  padding: 20px;
+  margin: 20px;
+  align-self: flex-start;
+  justify-content: flex-start;
+}
+
+.hero__title {
+  color: white;
+  align-self: center;
+  justify-content: center;
+}
+
+.hero__title__child {
+  color: rgb(255, 214, 49);
+  font-size: 50px;
+}
+
+.hero__hashtag {
+  background-color: rgb(255, 214, 49);
+  padding: 20px;
+  margin: 20px;
+  align-self: flex-end;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 870px) {
+  .hero__discount,
+  .hero__hashtag {
+    align-self: center;
+    justify-content: center;
+  }
+
+  .hero {
+    background-position: right;
+    flex-direction: column;
+  }
+
+  section {
+  width: 80%;
+  text-align: center;
+  flex: 0 1 30px;
+  }
+
+  
+}

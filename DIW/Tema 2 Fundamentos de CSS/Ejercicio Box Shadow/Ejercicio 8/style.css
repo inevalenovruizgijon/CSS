@@ -1,0 +1,27 @@
+
+
+
+.boton1{
+    background-color: #DA292A;
+    color: white;
+    box-shadow: 2px 2px 4px black;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-shadow: 2px 2px 2px rgb(54, 54, 54);
+
+}
+
+.boton2{
+    background-image: linear-gradient(to right,#FE9900 50%,#ffd18b);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.boton2:hover{
+    background-color: #FE9900;
+    background-image: none;
+    box-shadow: 0px 0px 20px 5px #ffb66eef;
+}

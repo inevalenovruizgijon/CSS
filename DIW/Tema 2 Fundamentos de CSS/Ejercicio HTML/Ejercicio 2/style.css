@@ -1,0 +1,14 @@
+body{
+    background-color: gray;
+}
+
+h1,h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-indent: 2em;
+    font-variant: small-caps;
+}

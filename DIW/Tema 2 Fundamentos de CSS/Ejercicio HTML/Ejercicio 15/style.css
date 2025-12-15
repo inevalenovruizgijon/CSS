@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+
+}
+.container{
+    margin: auto;
+    border-radius: 5px;
+    border: black solid 1px;
+    width: 50%;
+}
+
+h1{
+    text-align: center;
+    margin: 50px;
+}
+
+.html{
+    float: right;
+}
+
+.css,.js{
+    float: left;
+}
+
+p{
+    margin: 10px;
+}

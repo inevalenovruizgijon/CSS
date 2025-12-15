@@ -1,0 +1,57 @@
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+}
+/* Utilizando únicamente pseudoselectores, aplica fondo verde a las casillas que contienen horas */
+td:first-child{
+  background-color: green;
+}
+
+/* Utilizando únicamente pseudoselectores, aplica un fondo amarillo a la celda RECREO */
+tr:nth-child(3)>td:last-child{
+  text-align: center;
+  font-weight: bold;
+  background-color: yellow;
+}
+
+/* Cambia los estados de los enlaces para que:
+
+-Nunca estén subrayados
+-Si están visitados se muestren en rojo
+-Si no están visitados se muestren en verde */
+a:visited{
+  color: red;
+}
+a{
+  text-decoration: none;
+}
+a:link{
+    color: green;
+}
+
+/* Utilizando pseudoselectores, hacer que cuando pasemos el ratón sobre las celdas de la columna del viernes,
+aumente el tamaño de letra el doble */
+tr:not(:nth-child(3)) td:last-child:hover,th:last-child:hover {
+  font-size: 200%;
+}
+
+/* Utilizando pseudoelementos, haz que la primera letra de los días tenga el doble de tamaño */
+th::first-letter{
+  font-size: 200%;
+}
+
+/* Añade un borde rojo que esté separado 5px a los campos obligatorios */
+input:required{
+  border-color: red;
+  padding: 5px;
+}
+
+/* Añade un * en rojo detrás de las etiquetas del formulario */
+label::after{
+  color: red;
+  content: "*";
+}

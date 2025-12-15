@@ -1,0 +1,15 @@
+a[href="http://www.google.es/"]{
+    font-size: 15px;
+    border: 1px dotted orangered;
+}
+
+img[alt~=random]{
+    font-size: 10px;
+    font-style: italic;
+    border: 1px darkred dashed ;
+}
+
+img[alt=logo]{
+    font-size: 11px;
+    border: 1px green dotted ;
+}

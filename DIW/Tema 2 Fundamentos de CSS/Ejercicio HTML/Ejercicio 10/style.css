@@ -1,0 +1,33 @@
+.divespecial{
+    width: 200px;
+    background-color: grey;
+    border: solid 1px red;
+}
+
+.pespecial, .otroespecial{
+    width: 300px;
+}
+
+.pespecial{
+    border: dashed green 1px;
+    padding: 20px;
+}
+
+.otroespecial{
+    border: 1px dotted grey;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding: 0px 20px;
+}
+
+span{
+    width: 180px;
+    background-color: grey;
+    border: solid black 1px;
+    color: white;
+    padding: 0px 15px;
+}
+
+hr{
+    border-width: 3px;
+}

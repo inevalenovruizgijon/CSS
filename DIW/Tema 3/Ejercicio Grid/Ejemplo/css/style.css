@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+}
+
+.container{
+    outline: 2px dashed black;
+    margin: 50px;
+    height: 600px;
+    width: 90%;
+    max-width: 800px;
+
+    /*Grid*/
+    display: grid;
+    /* grid: repeat(4,1fr) / repeat(4,1fr); */
+    /* grid: repeat(4,100px) / repeat(4,100px); */
+    /* grid-template-columns: repeat(auto-fill, minmax(100px,1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    gap: 10px;
+
+    /*1) definicion de la cuadricula*/
+    /* grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(3,200px); */
+    
+    /* grid-template-columns: repeat(4,1fr); */
+    /* grid-template-rows: repeat(6,1fr); */
+    
+    /* grid-template-columns: 1fr repeat(2,2fr) 1fr; */
+    /* grid-template-columns: 100px auto auto 100px;
+    grid-template-rows: repeat(3,1fr); */
+
+    /* ALINEACIONES */
+    /* justify-items: center;  */
+    /* align-items: center; */
+    justify-content: center;
+    align-content: center;
+    place-content: center end;
+
+    /* 2) Define de las celdas que se ocuparan */
+    /* Se indica en los grid items */
+
+}
+
+.item{
+    border: 2px solid black;
+    font-size: 1.2rem;
+    font-weight: 700px;
+    height: 100px;
+    width: 100px;
+    line-height: 80px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.item1{
+    background-color: chartreuse;
+    /* grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start:1 ;
+    grid-row-end: 2; */
+}
+
+.item2{
+    background-color: firebrick;
+    /* grid-column: 1/2;
+    grid-row: 2/-1; */
+}
+
+.item3{
+    background-color: cornflowerblue;
+    /* grid-area: 2/2/4/-1; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item4{
+    background-color: deeppink;
+    /* grid-column: 2/-1;
+    grid-row: 4/-1; */
+}

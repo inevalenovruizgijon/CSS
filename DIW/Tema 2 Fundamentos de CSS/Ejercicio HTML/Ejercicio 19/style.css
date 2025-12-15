@@ -1,0 +1,26 @@
+html{
+    --color1: blue;
+    --color2: red;
+    --color3: green;
+
+    --fuente1: 0.8rem;
+    --fuente2: 1.2rem;
+
+    --estilo: italic;
+
+}
+
+.parrafo_destacado{
+    font-size: var(--fuente1);
+    font-style: var(--estilo);
+    color: var(--color1);
+}
+
+.parrafo_estandar{
+    font-size: var(--fuente2);
+    color: var(--color2);
+}
+
+p,h1,h2{
+    color: var(--color3);
+}

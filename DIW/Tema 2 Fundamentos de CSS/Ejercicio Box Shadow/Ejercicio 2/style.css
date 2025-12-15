@@ -1,0 +1,18 @@
+body{
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+p{
+    color: rgb(240, 46, 170);
+}
+
+.sombra{
+    box-shadow: 5px 5px rgb(240, 46, 170,90%),
+    10px 10px rgb(240, 46, 170,50%),
+    15px 15px rgb(240, 46, 170,30%),
+    20px 20px rgb(240, 46, 170,10%),
+    25px 25px rgb(240, 46, 170,5%);
+    width: 120px;
+    height: 100px;
+}

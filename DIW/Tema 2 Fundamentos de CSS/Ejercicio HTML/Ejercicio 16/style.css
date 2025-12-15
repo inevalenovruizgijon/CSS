@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
+
+.amarillo{
+    background-color: yellow;
+    height: 620px;
+    width: 20%;
+    float: left;
+    margin: 20px;
+
+}
+
+body{
+    width: 95%;
+    height: 95%;
+    margin: 20px;
+}
+
+header{
+    background-color: green;
+        height: 150px;
+    width: 100%;
+    margin: 20px;
+
+}
+
+.rojo{
+    background-color: red;
+    height: 300px;
+    width: 20%;
+    float: left;
+        margin: 20px;
+        margin-left: 40px;
+
+}
+
+.azul{
+    background-color: blue;
+    height: 300px;
+    width: 68%;
+    float: left;
+    margin-left: 40px;
+}

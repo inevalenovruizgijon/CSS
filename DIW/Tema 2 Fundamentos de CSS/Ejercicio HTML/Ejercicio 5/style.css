@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'AlanSans';
+  src: url('font/AlanSans-VariableFont_wght.ttf') format('truetype'); /* Ajusta la ruta y formato */
+}
+
+
+.parrafo_destacado{
+    font-size: 0.8rem;
+    font-style: italic;
+    color: blue;
+    font-family: "AlanSans";
+}
+
+.parrafo_estandar{
+    font-size: 1.2rem;
+    color: red;
+    font-family: 'Roboto';
+}
+
+p,h1,h2{
+    color: green;
+}
+
+img{
+    width: 5%;
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/*elastic*/
+.container{
+    background-color:#87CEFA ;
+    width: 50em;
+    height: 600px;
+    margin: 50px auto;
+    padding: 5px 0px;
+}
+
+header{
+    height: 40px;
+    background-color: #FFA500;
+    margin: 15px 20px;
+}
+
+article{
+    width: 23em;
+    background-color: #20B2AA;    
+    height: 500px;
+    padding: 10px;
+}
+
+main{
+    margin: 20px;
+    overflow-y: auto;
+}
+
+article:nth-child(1){
+    float: left;
+}
+
+article:nth-child(2){
+    float: right;
+}

@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+}
+
+.container{
+    border: 2px dashed black;
+    margin: 50px;
+    height: 675px;
+    width: 750px;
+
+    position: relative;
+}
+
+.box{
+    border: 2px solid black;
+    font-size: 1.2rem;
+    height: 150px;
+    width: 150px;
+    /* truco para centrar verticalmente si solo hay 1 linea en el contenido */
+    line-height: 130px;
+    padding: 10px;
+    text-align: center;
+}
+
+.first{
+    background-color: chartreuse;
+    /*Ignora top,bottom,rigth,left y z-index*/
+    position: static;
+}
+
+.second{
+    background-color: firebrick;
+    /*activa top,bottom,rigth,left y z-index y se realiza desde el elemento padre*/
+    position: relative;
+    left: 150px;
+}
+
+.third{
+    background-color: cornflowerblue;
+    /*activa top,bottom,rigth,left y z-index y se realiza desde el borde de la ventana del navegador o
+    Desde el primer padre que tenga position relative*/
+    position: absolute;
+    left: 150px;
+}
+
+.fourth{
+    background-color: deeppink;
+    /*activa top,bottom,rigth,left y z-index y se realiza desde el borde de la ventana del navegador, ignora el flujo y
+    Se queda fijo aunque se haga scroll*/
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}

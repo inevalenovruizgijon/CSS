@@ -1,0 +1,14 @@
+.definicion{
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+}
+
+.parrafo_especial{
+    font-size: 14px;
+    font-style: italic;
+}
+
+h1,h2{
+    color: green;
+}

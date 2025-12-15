@@ -1,0 +1,67 @@
+/*STATICOS*/
+:root{
+    --yellow: #DAA520;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../img/burguer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 20px 50px;
+}
+
+/*HERO*/
+.hero{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+/*LEFT*/
+.left__top{
+    background-color: var(--yellow);
+    display: flex;
+    flex: 0 1 350px;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+    padding: 30px 20px;
+    
+}
+/*CENTER*/
+.center__center{
+    text-align: center;
+    display: flex;
+    flex: 0 1 350px;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    padding: 20px;
+}
+
+.tittle--yellow{
+    color: var(--yellow);
+}
+
+.date,.address{
+    color: white;
+}
+
+/*RIGHT*/
+.right__bottom{
+    background-color: var(--yellow);
+    display: flex;
+    flex: 0 1 350px;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-end;
+    padding: 20px;
+}

@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #213a53;
+  overflow-y: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+a:hover {
+  color: #213a53;
+  background-color: white;
+}
+
+.landing {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: white;
+  text-shadow: 2px 2px black;
+  background-attachment: fixed;
+}
+
+#inicio {
+  background-image: url(img/mano.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#daw {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 0, 0, 0.5),
+      rgba(0, 0, 255, 0.5)
+    ),
+    url("img/desierto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#contactanos {
+  background-image: linear-gradient(to bottom, red, blue);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}

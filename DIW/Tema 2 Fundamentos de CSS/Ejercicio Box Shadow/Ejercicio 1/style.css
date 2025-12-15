@@ -1,0 +1,29 @@
+.title{
+    text-shadow:  2px 2px 1px #808080;
+}
+
+p{
+    text-shadow:  2px 5px 1px #b5b5b5;
+}
+
+a:not(p){
+    text-shadow: none;
+}
+
+div{
+    padding: 20px;
+    margin: 20px;
+}
+
+.shady{
+    box-shadow: 5px 5px 3px 0px limegreen;
+}
+
+.shady2{
+    box-shadow: -5px -5px 0px 0px red;
+}
+
+.shady3{
+    box-shadow: 5px 0px 0px 0px rgb(27, 168, 255);
+
+}

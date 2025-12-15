@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 20px auto;
+  width: 90%;
+  line-height: 150px;
+  text-align: center;
+}
+
+article {
+  height: 300px;
+}
+
+.red {
+  background-color: red;
+  width: 20%;
+  float: left;
+}
+
+.blue {
+  background-color: blue;
+  width: 50%;
+  float: left;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 30%;
+  float: left;
+}
+
+@media screen and (max-width: 991px) {
+  .red {
+    width: 50%;
+    float: left;
+  }
+
+  .blue {
+    width: 50%;
+    float: left;
+  }
+
+  .yellow {
+    clear: both;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .red,
+  .blue,
+  .yellow {
+    width: 100%;
+  }
+}
